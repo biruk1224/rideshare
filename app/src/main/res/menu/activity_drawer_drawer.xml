@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/baseline_home_24"
+            android:id="@id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item android:icon="@drawable/baseline_group_add_24"
+            android:id="@+id/nav_create"
+            android:title="@string/create" />
+
+        <item android:icon="@drawable/baseline_person_search_24"
+            android:id="@+id/nav_join"
+            android:title="@string/join" />
+
+
+        <item android:icon="@drawable/baseline_local_taxi_24"
+            android:id="@+id/nav_transportation"
+            android:title="@string/transportation" />
+
+        <item android:icon="@drawable/baseline_chat_bubble_outline_24"
+            android:id="@+id/nav_chat"
+            android:title="@string/messages"/>
+        <item android:icon="@drawable/baseline_calculate_24"
+            android:id="@+id/nav_calculate"
+            android:title="Fare Calculation"/>
+        <item android:icon="@drawable/baseline_settings_applications_24"
+            android:id="@+id/nav_settings"
+            android:title="@string/settings" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/communication">
+            <menu>
+                <item android:icon="@drawable/baseline_share_24"
+                    android:id="@+id/nav_share"
+                    android:title="@string/share" />
+
+                <item android:icon="@drawable/baseline_supervised_user_circle_24"
+                    android:id="@+id/nav_aboutus"
+                    android:title="@string/about_us" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RideShare</string>
+    <string name="login">በመለያ ይግቡ</string>
+    <string name="forget_password">የይለፍ ቃል ረስተዋል ?</string>
+    <string name="language">English</string>
+    <string name="oromic">Afaan oromoo</string>
+    <string name="username">Username</string>
+    <string name="don_t_have_account_new_account">መለያ የለዎትም? አዲስ መለያ</string>
+    <string name="register_here">እዚህ ይመዝገቡ</string>
+    <string name="full_name">ሙሉ ስም</string>
+    <string name="code_sent_to">ኮድ ተልኳል።</string>
+    <string name="otp">የ OTP ኮድን ያገኛሉ</string>
+    <string name="phone_no">Phone +2519xxxxx</string>
+    <string name="where_to_go">ወዴት ይሂዱ?</string>
+    <string name="confirm_password">የይለፍ ቃል አረጋግጥ</string>
+    <string name="enter_your_destination_here">መድረሻዎን እዚህ ያስገቡ</string>
+    <string name="no_of_people_to_share">የሰዎች ብዛት</string>
+    <string name="start_chat">ውይይት ጀምር</string>
+    <string name="Password">የይለፍ ቃል</string>
+    <string name="Email">ኢሜል</string>
+    <string name="location">አድራሻ</string>
+    <string name="Full_Name">ሙሉ ስም</string>
+    <string name="already_have_an_account_login">መለያ አለህ.በመለያ ይግቡ</string>
+    <string name="join">ተቀላቀል</string>
+    <string name="create">ፍጠር</string>
+    <string name="messages">መልዕክቶች</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="share">አጋራ</string>
+    <string name="about_us">ስለ እኛ</string>
+    <string name="submit">አስገባ</string>
+    <string name="logout">ዘግተው ይውጡ</string>
+    <string name="title_activity_join">የፈጣሪዎች ዝርዝር</string>
+    <string name="title_activity_joiner">ተቀላቃይ</string>
+    <string name="enter_the_code">ኮዱን ያስገቡ</string>
+    <string name="enter_the_verification_code">የማረጋገጫ ኮድ ያስገቡ</string>
+    <string name="verify">አረጋግጥ</string>
+    <string name="_251_933027140">251 933027140</string>
+    <string name="todo">TODO</string>
+    <string name="_2_people">2 People</string>
+    <string name="_300m_from_you">300m from you</string>
+    <string name="title_activity_settings">የቅንብሮችእንቅስቃሴ</string>
+
+
+    <string name="title_activity_fi4st">Fi4st</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="transportation">Transportation</string>
+    <string name="communication">Communication</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">ቅንብሮች</string>
+    <string name="are">የመጓጓዣ ክፍያዎን የሚጋራ ሰው እየፈለጉ ነው? በመስመር ላይ የምታጠፋውን ጊዜ ለመቆጠብ እና በፈለከው ቦታ በማንኛውም ጊዜ ምቹ ጉዞ ለማድረግ ትፈልጋለህ? አሁን RideShareን ይምረጡ እና ለራስዎ እና ለሌሎች ምን ማድረግ እንደሚችሉ ይመልከቱ። የእኛ መተግበሪያ የትራንስፖርት ገንዘብ ላጠራቸውና ጊዜ ላሌላቸው ሰዎችን ፍቱን መድሀኒት ነው። አባቶቻችን እንደሚሉት ወረፋ መጠበቅ እና ስለ ክፍያው መጨነቅ</string>
+    <string name="menu_home">ቤት</string>
+    <string name="english">English</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">ፊርማዎ</string>
+    <string name="reply_title">ነባሪ ምላሽ እርምጃ</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="amharic">አማ</string>
+    <string name="dummy_text">Checking</string>
+    <string name="select_language">ቋንቋ ይምረጡ</string>
+    <string name="am">Amharic</string>
+    <string name="Rideshare_desc">Rideshare ከተካተተ የመጀመሪያ ጊዜ ልምምድ ጋር ለመጠቀም ቀላል ነው፣ ማንነትዎ እንዳይታወቅ ያደርግዎታል እና ከሌሎች ጋር ለመገናኘት ተጨማሪ ባህሪያት ይኖሩታል፡ ከፈለግክ መወያየት ትችላለህ።</string>
+    <string name="fare_calculation">የታሪፍ ስሌት</string>
+    <string name="hello">ሀሎ</string>
+    <string name="messages_header">መልዕክቶች</string>
+    <string name="create_new_group">አዲስ ቡድን ይፍጠሩ</string>
+    <string name="join_existing_group">ነባር ቡድንን ይቀላቀሉ</string>
+    <string name="change_profile">መገለጫ ቀይር</string>
+    <string name="change_password">የይለፍ ቃል ይቀይሩ</string>
+    <string name="privacy_policy">የግላዊነት ደንብ</string>
+    <string name="change_language">ቋንቋ ይቀይሩ</string>
+    <string name="ask_a_question">ጥያቄ ይጠይቁ</string>
+    <string name="profile_settings">የመገለጫ ቅንብሮች</string>
+    <string name="help">እገዛ</string>
+    <string name="about">ስለ</string>
+    <string name="are_you_sure_want_you_to_delete_this">እርግጠኛ ነዎት ይህንን መሰረዝ ይፈልጋሉ?</string>
+    <string name="this_will_remove_the_room_that_you_have_created_recently">ይህ በቅርቡ የፈጠርከውን ቡድን ያስወግዳል</string>
+    <string name="yes">አዎ</string>
+    <string name="no">አይ</string>
+    <string name="yes_or_no">አዎ ወይም አይ</string>
+    <string name="do_you_want_to_run_this_on_background">"ይህንን ከበስተጀርባ ማስኬድ ይፈልጋሉ? "</string>
+    <string name="you_can_t_access_the_chat_room">ወደ ቻት ሩም መድረስ አይችሉም</string>
+    <string name="first_you_have_to_create_or_join">መጀመሪያ መፍጠር ወይም መቀላቀል አለብዎት</string>
+    <string name="enter_destination_location">Enter Destination Location</string>
+    <string name="no_of_people">No of People</string>
+
+    <string-array name="noofpeople">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+
+    </string-array>
+
+
+    <string-array name="choice_items">
+        <item>English</item>
+        <item>Amharic</item>
+        <item>Afaan Oromoo</item>
+
+
+
+    </string-array>
+</resources>

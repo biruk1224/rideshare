@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_30sdp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/where_to_go"
+            android:textColor="@color/rideshare"
+            android:textSize="@dimen/_30ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.032"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/desitinationt"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30ssp"
+            android:backgroundTint="@color/rideshare"
+            app:boxCornerRadiusBottomEnd="20.0dip"
+            app:boxCornerRadiusBottomStart="20.0dip"
+            app:boxCornerRadiusTopEnd="20.0dip"
+            app:boxCornerRadiusTopStart="20.0dip"
+            app:boxStrokeColor="@color/rideshare"
+            app:endIconMode="clear_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView6">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/destination"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_your_destination_here"
+                android:textColor="@color/input"
+                android:textColorHint="@color/input" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/no_of_peoplet"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip"
+            android:textColorHint="@color/input"
+            app:boxCornerRadiusBottomEnd="20.0dip"
+            app:boxCornerRadiusBottomStart="20.0dip"
+            app:boxCornerRadiusTopEnd="20.0dip"
+            app:boxCornerRadiusTopStart="20.0dip"
+            app:boxStrokeColor="@color/rideshare"
+            app:endIconMode="clear_text"
+            app:layout_constraintStart_toStartOf="@id/desitinationt"
+            app:layout_constraintTop_toBottomOf="@id/desitinationt"
+            app:startIconTint="@color/input">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/no_of_people"
+                android:layout_width="200.0dip"
+                android:layout_height="wrap_content"
+                android:hint="@string/no_of_people_to_share"
+                android:inputType="number"
+                android:textColor="@color/input"
+                android:textColorHint="@color/input"
+                android:textSize="16.0sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="180.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="60dp"
+            android:text="@string/create"
+            app:backgroundTint="@color/rideshare"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no_of_peoplet" />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:backgroundTint="@color/input"
+            android:visibility="invisible"
+
+            android:progressTint="#ffffc107"
+            app:layout_constraintEnd_toStartOf="@+id/create"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_created" />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92.0dip"
+            android:backgroundTint="@color/rideshare"
+            android:text="@string/start_chat"
+            android:visibility="invisible"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/create" />
+
+        <TextView
+            android:id="@+id/show_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="5 peoples to kality"
+            android:textSize="@dimen/_16sdp"
+            android:visibility="invisible"
+            android:fontFamily="@font/amiko"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no_of_peoplet" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

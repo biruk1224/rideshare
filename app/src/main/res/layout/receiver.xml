@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_grey"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingTop="10.0dip"
+    android:paddingRight="15.0dip"
+    android:paddingBottom="5.0dip">
+
+    <LinearLayout
+        android:id="@id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="@drawable/message_background"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_2sdp">
+
+        <TextView
+            android:id="@+id/recevier"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_18ssp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:text="Biruk"
+            android:textColor="@color/rideshare"
+            android:textSize="@dimen/_15sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/receviermessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_8ssp"
+                android:paddingRight="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_2sdp"
+                android:text="👋Hello there\nI am a model to show you how it looks like if there is a real creator."
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom|center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:text="3:00PM"
+            android:textSize="11.0dip" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/custom_checkbox"
+        android:background="@color/light_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:checked="true"
+        android:visibility="gone"/>
+</RelativeLayout>

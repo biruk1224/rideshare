@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15.0dip"
+    android:paddingTop="10.0dip"
+    android:paddingRight="20.0dip"
+    android:paddingBottom="5.0dip">
+
+    <LinearLayout
+        android:id="@id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:background="@drawable/receve_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10.0dip"
+            android:paddingTop="5.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingBottom="0.0dip"
+            android:text="👋Hello there\nI am a model to show you how it looks like if there is a real creator."
+            android:textColor="#ff292626"
+            android:textSize="18.0sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom|center"
+            android:paddingLeft="@dimen/_2sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:text="3:00PM"
+            android:textSize="@dimen/_11ssp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        style="@style/custom_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:checked="true"
+        android:visibility="invisible" />
+</RelativeLayout>

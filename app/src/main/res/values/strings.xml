@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+            <string name="app_name">RideShare</string>
+            <string name="login">Login</string>
+            <string name="forget_password">Forget password ?</string>
+            <string name="language">Language</string>
+            <string name="oromic">Afaan oromoo</string>
+            <string name="username">Username</string>
+            <string name="don_t_have_account_new_account">Don\'t have account? New account</string>
+            <string name="register_here">Register here</string>
+            <string name="full_name">Full name</string>
+            <string name="code_sent_to">Code sent to</string>
+            <string name="otp">You will get the OTP code in</string>
+            <string name="phone_no">Phone +2519xxxxx</string>
+            <string name="where_to_go">Where to go ?</string>
+            <string name="confirm_password">Confirm Password</string>
+            <string name="enter_your_destination_here">Enter your destination here</string>
+            <string name="no_of_people_to_share">Number of people</string>
+            <string name="start_chat">Start Chat</string>
+            <string name="Password">Password</string>
+            <string name="Email">Email</string>
+            <string name="location">Location</string>
+            <string name="Full_Name">Full name</string>
+            <string name="already_have_an_account_login">Already have an account.Login</string>
+            <string name="join">Join</string>
+            <string name="create">Create</string>
+            <string name="messages">Messages</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="about_us">About us</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_join">Creaters list</string>
+    <string name="title_activity_joiner">Joiner</string>
+    <string name="enter_the_code">Enter the Code</string>
+    <string name="enter_the_verification_code">Enter the Verification Code</string>
+    <string name="verify">Verify</string>
+    <string name="_251_933027140">251 933027140</string>
+    <string name="todo">TODO</string>
+    <string name="_2_people">2 People</string>
+    <string name="_300m_from_you">300m from you</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+
+
+    <string name="title_activity_fi4st">Fi4st</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="transportation">Transportation</string>
+    <string name="communication">Communication</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="are">Are you looking for someone to share your transportation fee? Do you want to save the time you are spending in lines and have a comfortable ride anytime where ever you want? Choose RideShare now and see what you can do for yourself and others. Our app connects people who can\'t afford the money used to ride and can\'t afford to lose time. No more waiting in line and no more worrying about the payment as our ancestors say.</string>
+    <string name="menu_home">Home</string>
+    <string name="english">English</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Mallattoo kee</string>
+    <string name="reply_title">Tarkaanfii deebii durtii</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="amharic">አማ</string>
+    <string name="dummy_text">Checking</string>
+    <string name="select_language">Select Language</string>
+    <string name="am">Amharic</string>
+    <string name="Rideshare_desc">Rideshare is easier to use with included walkthrough, keeps you anonymous and have more features to connect with others: you can chat if you prefer.</string>
+    <string name="fare_calculation">Fare Calculation</string>
+    <string name="hello">Hello</string>
+    <string name="messages_header">Ergaawwan</string>
+    <string name="create_new_group">Create New Group</string>
+    <string name="join_existing_group">Join Existing Group</string>
+    <string name="change_profile">Change profile</string>
+    <string name="change_password">Change password</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="change_language">Change language</string>
+    <string name="ask_a_question">Ask a Question</string>
+    <string name="profile_settings">Profile settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="are_you_sure_want_you_to_delete_this">Are you sure want you to delete this?</string>
+    <string name="this_will_remove_the_room_that_you_have_created_recently">This will remove  the room that you have created recently</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="yes_or_no">Yes or No</string>
+    <string name="do_you_want_to_run_this_on_background">"Do you want to run this on background? "</string>
+    <string name="you_can_t_access_the_chat_room">You can\'t access the chat room</string>
+    <string name="first_you_have_to_create_or_join">First you have to create or join</string>
+    <string name="enter_destination_location">Enter Destination Location</string>
+    <string name="no_of_people">No of People</string>
+
+    <string-array name="noofpeople">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+
+    </string-array>
+
+
+    <string-array name="choice_items">
+        <item>English</item>
+        <item>Amharic</item>
+        <item>Afaan Oromoo</item>
+
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RideShare" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/rideshare</item>
+    </style>
+
+    <style name="Theme.RideShare" parent="Base.Theme.RideShare" />
+
+
+    <style name="custom_checkbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+    </style>
+
+    <style name="Theme.RideShare.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RideShare.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RideShare.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
